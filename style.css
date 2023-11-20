@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p{
+    font-family: 'Inter', sans-serif;
+}
+/* ---NAV START---- */
+.hidcon-1{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    min-height: 120px;
+   
+}
+
+header{
+    width: 100%;
+    min-height: 120px;
+    background-color: #ffcb04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+nav{
+    width: 99%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-con{
+    width: 85%;
+    min-height: 110px;          
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-con .logo{   
+ margin-right: auto;                        
+}
+
+ 
+.main-con .content-card{
+  width: 40%;
+  min-height: 110px;
+  display: flex; 
+  align-items: center;
+  flex-wrap: wrap;
+}           
+
+.content-card .card{
+    width: 250px;
+    height: 48px;
+    background-color: black;
+    color: #ffcb04;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+.hidbox{
+    display: flex;
+    
+}
+.content-card .access{
+    width: 120px;
+    height: 48px;
+    background-color: #ffcb04;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+
+}
+.lang-con{
+   width: 10%;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   
+}
+.lang-con .lang{
+   background-color: #ffcb04;
+   font-family: inherit;
+   font-size: 18px;
+   margin-left: 5px;
+   border-style: none;
+}
+
+/*-----NAV END------ */
+/* ---STİCKY-NAV START----- */
+.sticky-nav{
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    
+ }
+ 
+.sticky-nav .content-con{
+   width: 98%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.form-con{
+   width: 80%;
+    
+}
+
+.contact-card{
+    display: flex;
+    min-height: 100px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+form .name{
+   min-width:250px;
+   min-height: 40px;
+   margin-right: auto;
+   border: none;
+   
+}
+
+form .name::placeholder{
+   color: black; 
+   font-size: 16px;
+   font-family: 'Inter', sans-serif; 
+   padding: 15px;
+} 
+
+form .mail{
+   width: 250px; 
+   min-height: 40px;
+   margin-right: auto;
+}
+
+form .mail::placeholder{
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif; 
+    padding: 15px;
+}
+
+form button{
+    width: 250px;
+    min-height: 45px; 
+    background-color: #ffcb04;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    
+    
+ }  
+   /*---STİCKY-NAV END----  */
+
+   .background-img{
+    width: 100%;
+    min-height: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+ }
+ 
+.background-con{
+   width: 100%;
+   min-height: 100px;
+   border: 2px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 18%;
+
+}
+.flex-con{
+   width: 90%;
+   min-height: 100px;
+   display: flex;
+   justify-content: center;
+  
+}
+.img-con{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-con img{
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.img-con a {
+    width: 80%;
+    height: 400px;
+    
+   
+}  
+/* ---BACKGROUND-İMG END--- */
+
+/* ---FİLM CONTENT START----*/
+
+.img-con1, .img-con2, .img-con3, .img-con4, .img-con5, .img-con6, .img-con7, .img-con8{
+    width: 20%;
+    min-height: 100px;
+    margin: 0px 20px 20px 20px;
+}
+.hidcon-3{
+    width: 100%;
+    min-height: 120px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+.film-con{
+    width: 99%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+.hidcon-3 .flex-con{
+   width: 85%;
+   min-height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.img-pro{
+    width: 100%;
+    position: relative;
+    
+}
+.img-size{
+    width: 100%;
+    object-fit: cover;
+
+}
+.play{
+    width: 30px ;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.film-name{
+    width: 100% ;
+    min-height: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --FİLM CONTENT END--- */
+ /* ---FOOTER START--- */
+
+.hidcon-4{
+    width: 100%;
+    min-height: 120px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    
+                
+}
+.hidcon-4 .flex-con{
+    width: 99%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.footer-con{
+   width: 85%;
+   min-height: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: 20px;
+
+}
+.footer-img{
+    width: 35%;
+    min-height: 100px;
+    margin: auto
+ 
+}
+.footer-img img{
+    width: 100%;
+    min-height: 100px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+.hidcon-4 .content-con{
+    width: 70%;
+    min-height: 200px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.app-img{
+    width: 100%;
+    min-height: 100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app-size{
+    width: 160px;
+    min-height: 43px;
+    margin: 10px;
+}
+
+.footer-icon{
+    min-width: 30%;
+    min-height: 80px;
+    margin: auto;
+    
+}
+.icon-img{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.icon-img li{
+    margin: 20px;
+}
+
+.help-con{
+    width: 85%;
+    min-height: 50px;
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+    
+    
+}
+.help-desk{
+    width: 50%;
+    min-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tradename{
+    width: 50%;
+    min-height: 50px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help-desk a{
+    text-decoration: none;
+}
+.help-desk a h1{
+color:#ffcb04;
+}
+
+.tradename a{
+    text-decoration: none;
+}
+
+.tradename h2 a{
+color: white;
+}
+/*---FOOTER END---- */
